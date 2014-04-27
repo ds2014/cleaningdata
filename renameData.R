@@ -1,5 +1,5 @@
 ### Rename dataset
-varNames <- as.character(featureData[,2])
-colnames(testData) <- colnames(trainData) <- varNames
+featureNames <- as.character(featureData[,2])
+colnames(testData) <- colnames(trainData) <- featureNames
 colnames(testSubjectData) <- colnames(trainSubjectData) <- "Subject"
 colnames(testActivityData) <- colnames(trainActivityData) <- "Activity"
